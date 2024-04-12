@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1f4692e-7cc9-47d8-8322-3cb84cd5e0b0" name="Changes" comment="Ended Lab1">
-      <change afterPath="$PROJECT_DIR$/.idea/Lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/Airline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/Airport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/Exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/Flight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/UI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/airport.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/airport.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/airport_copy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,8 +117,17 @@
       <workItem from="1712685818833" duration="131000" />
       <workItem from="1712685958782" duration="1675000" />
       <workItem from="1712687721523" duration="4692000" />
-      <workItem from="1712903639746" duration="4376000" />
+      <workItem from="1712903639746" duration="4723000" />
     </task>
+    <task id="LOCAL-00001" summary="Ended Lab1">
+      <option name="closed" value="true" />
+      <created>1712908081838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712908081838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
