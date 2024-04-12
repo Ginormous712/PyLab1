@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Airport xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="airport.xsd">
+	<Airline id="1" name="International Ukrainian Airlines"/>
+	<Airline id="2" name="SkyFly Airlines"/>
+	<Airline id="3" name="Sunset Airways"/>
+
+	<Flight id="1" airline_id="1" destination="London" departure_time="2023-04-15T12:30:00" arrival_time="2023-04-15T15:45:00"/>
+	<Flight id="2" airline_id="2" destination="Paris" departure_time="2023-04-16T08:00:00" arrival_time="2023-04-16T11:15:00"/>
+	<Flight id="3" airline_id="3" destination="New York" departure_time="2023-04-17T14:45:00" arrival_time="2023-04-17T20:30:00"/>
+	<Flight id="4" airline_id="1" destination="Berlin" departure_time="2023-04-18T10:20:00" arrival_time="2023-04-18T13:35:00"/>
+	<Flight id="5" airline_id="2" destination="Rome" departure_time="2023-04-19T16:00:00" arrival_time="2023-04-19T19:25:00"/>
+</Airport>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="FlightType">
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="airline_id" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="destination" type="xs:string" use="required"/>
+        <xs:attribute name="departure_time" type="xs:dateTime" use="required"/>
+        <xs:attribute name="arrival_time" type="xs:dateTime" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="AirlineType">
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="Airport">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Airline" type="AirlineType"
+                            minOccurs="0" maxOccurs="unbounded">
+                </xs:element>
+                <xs:element name="Flight" type="FlightType"
+                            minOccurs="0" maxOccurs="unbounded">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
